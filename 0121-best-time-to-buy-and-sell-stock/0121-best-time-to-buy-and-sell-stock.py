@@ -1,6 +1,6 @@
 class Solution(object):
     def maxProfit(self, prices):
-        min_price = 9999999999999999999999999999999999999999999999
+        min_price = 99999999999999999999999
         max_profit = 0
         for price in prices:
             min_price = min(min_price, price)
